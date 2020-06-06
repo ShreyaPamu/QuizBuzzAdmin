@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.amazonaws.lambda.demo.LambdaFunctionHandler" project="QuizBuzzAPIAdmin" 
+    file="/QuizBuzzAPIAdmin/src/main/java/com/amazonaws/lambda/demo/LambdaFunctionHandler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="412" width="543" x="31" y="9"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.amazonaws.lambda.demo.Constants" project="QuizBuzzAPIAdmin" 
+    file="/QuizBuzzAPIAdmin/src/main/java/com/amazonaws/lambda/demo/Constants.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="986" y="213"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.amazonaws.lambda.demo.UploadS3Handler" project="QuizBuzzAPIAdmin" 
+    file="/QuizBuzzAPIAdmin/src/main/java/com/amazonaws/lambda/demo/UploadS3Handler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="716" y="542"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="4">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
